@@ -95,14 +95,12 @@ spec:
               properties:
                 asNumber:
                   description:
-                    "ASNumber is the default AS number used by a node. [Default:
-                    64512]"
+                    "ASNumber is the default AS number used by a node. [Default:64512]"
                   format: int32
                   type: integer
                 logSeverityScreen:
                   description:
-                    "LogSeverityScreen is the log severity above which logs
-                    are sent to the stdout. [Default: INFO]"
+                    "LogSeverityScreen is the log severity above which logs are sent to the stdout. [Default: INFO]"
                   type: string
                 nodeToNodeMeshEnabled:
                   description:
